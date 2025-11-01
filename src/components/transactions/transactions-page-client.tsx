@@ -130,7 +130,7 @@ export function TransactionsPageClient({
   const [filters, setFilters] = useState<Filters>({
     search: '',
     dateRange: { from: null, to: null },
-    datePreset: 'thisMonth',
+    datePreset: 'custom',
     accountIds: [],
     categoryIds: [],
     types: [],
